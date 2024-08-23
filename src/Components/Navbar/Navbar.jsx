@@ -35,7 +35,7 @@ const Navbar = () => {
             
             </div>
           </div>
-          <div className={`absolute md:hidden top-12 ${toggle?"-right-24":"right-0"} bg-slate-300 p-4`}>
+          <div className={`absolute md:hidden right-0 top-11 ${toggle?"hidden":"flex"} bg-slate-300 p-4`}>
             <ul className='space-y-2'>
               {links}
             </ul>
